@@ -5,8 +5,6 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NiL.Dns", "NiL.Dns\NiL.Dns.csproj", "{D2FDD40D-0C81-46C2-9CC6-003915C49979}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox", "..\Sandbox\Sandbox.csproj", "{E1551797-DCD4-4B93-BFCC-98778620EBF4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github workflows", "Github workflows", "{80301B35-2B09-4659-A7E3-446292EC9E0A}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
@@ -14,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github workflows", "Github 
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{140D9A90-1661-4DF3-82FA-B5ECF9D0D5BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox", "Sandbox\Sandbox.csproj", "{E3C82FC6-365A-4DE1-830A-EEEF10437529}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,6 @@ Global
 		{D2FDD40D-0C81-46C2-9CC6-003915C49979}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D2FDD40D-0C81-46C2-9CC6-003915C49979}.Release|x64.ActiveCfg = Release|x64
 		{D2FDD40D-0C81-46C2-9CC6-003915C49979}.Release|x64.Build.0 = Release|x64
-		{E1551797-DCD4-4B93-BFCC-98778620EBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1551797-DCD4-4B93-BFCC-98778620EBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1551797-DCD4-4B93-BFCC-98778620EBF4}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{E1551797-DCD4-4B93-BFCC-98778620EBF4}.Debug|x64.Build.0 = Debug|Any CPU
-		{E1551797-DCD4-4B93-BFCC-98778620EBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1551797-DCD4-4B93-BFCC-98778620EBF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1551797-DCD4-4B93-BFCC-98778620EBF4}.Release|x64.ActiveCfg = Release|Any CPU
-		{E1551797-DCD4-4B93-BFCC-98778620EBF4}.Release|x64.Build.0 = Release|Any CPU
 		{140D9A90-1661-4DF3-82FA-B5ECF9D0D5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{140D9A90-1661-4DF3-82FA-B5ECF9D0D5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{140D9A90-1661-4DF3-82FA-B5ECF9D0D5BC}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -47,6 +39,14 @@ Global
 		{140D9A90-1661-4DF3-82FA-B5ECF9D0D5BC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{140D9A90-1661-4DF3-82FA-B5ECF9D0D5BC}.Release|x64.ActiveCfg = Release|Any CPU
 		{140D9A90-1661-4DF3-82FA-B5ECF9D0D5BC}.Release|x64.Build.0 = Release|Any CPU
+		{E3C82FC6-365A-4DE1-830A-EEEF10437529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C82FC6-365A-4DE1-830A-EEEF10437529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C82FC6-365A-4DE1-830A-EEEF10437529}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E3C82FC6-365A-4DE1-830A-EEEF10437529}.Debug|x64.Build.0 = Debug|Any CPU
+		{E3C82FC6-365A-4DE1-830A-EEEF10437529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C82FC6-365A-4DE1-830A-EEEF10437529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C82FC6-365A-4DE1-830A-EEEF10437529}.Release|x64.ActiveCfg = Release|Any CPU
+		{E3C82FC6-365A-4DE1-830A-EEEF10437529}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
