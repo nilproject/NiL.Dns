@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net7.0;net8.0</TargetFrameworks>
+    <Platforms>AnyCPU;x64</Platforms>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>keys.snk</AssemblyOriginatorKeyFile>
+    <LangVersion>latest</LangVersion>
+    <Authors>NiLProject</Authors>
+    <PackageReleaseNotes>@(ReleaseNoteLines, '%0a')</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/nilproject/NiL.Dns</RepositoryUrl>
+  </PropertyGroup>
+
+  <Target Name="ReleaseNotesReading" BeforeTargets="GenerateNuspec">
+    <ReadLinesFromFile File="../Release.md" >
+      <Output TaskParameter="Lines" ItemName="ReleaseNoteLines"/>
+    </ReadLinesFromFile>
+  </Target>
+  
+</Project>
