@@ -9,11 +9,16 @@
     <Authors>NiLProject</Authors>
     <PackageReleaseNotes>@(ReleaseNoteLines, '%0a')</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/nilproject/NiL.Dns</RepositoryUrl>
+    <Title>$(AssemblyName)</Title>
+    <Description>Simple DNS client</Description>
+    <Copyright>NiLProject, 2024</Copyright>
+    <PackageProjectUrl>https://github.com/nilproject/NiL.Dns</PackageProjectUrl>
+    <PackageTags>dns</PackageTags>
   </PropertyGroup>
 
   <Target Name="ReleaseNotesReading" BeforeTargets="GenerateNuspec">
-    <ReadLinesFromFile File="../Release.md" >
-      <Output TaskParameter="Lines" ItemName="ReleaseNoteLines"/>
+    <ReadLinesFromFile File="../Release.md">
+      <Output TaskParameter="Lines" ItemName="ReleaseNoteLines" />
     </ReadLinesFromFile>
   </Target>
   
